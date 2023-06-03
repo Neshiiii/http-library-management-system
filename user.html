@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My library</title>
+    <title>User</title>
     <link
         rel="stylesheet"
         href="./headingstyle.css"
@@ -11,12 +11,15 @@
 </head>
 <body>
     <header>
-        <h1>Welcome to my library!</h1>
+        <h1>Students Login!</h1>
     </header>
     
     <h2>User login</h2>
     <div class="loginform">
-        <form id="login" action="./goal/list.html" method="post">
+        <form id="login" href="./goal/list.html" method="post">
+            <div class="imgcontainer">
+                <img src="./images/avatar.jpeg" alt="Avatar" class="avatar">
+            </div>
             <table class="centre">
                 <tr><td><label for="firstname"><b>Firstname:</b> </label></td>
                 <td><input 
@@ -65,7 +68,7 @@
                     required
                     ><br /></td></tr>
                 <tr><td><label for="submit"></label></td>
-                <td><button class="submit" type="submit" value="login">Login</button></td>
+                <td><button class="submit" type="submit" value="login">Login</button></td><br />
                 <td><button class="reset" type="reset" value="reset">Reset</button></td></td></tr>
             </table>
                
